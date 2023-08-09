@@ -18,7 +18,6 @@ export default function Home(){
         <Footer/>
         <AboutMe />
         <Projects />
-
         <Testimonial/>
         <ContactMe />   
         <FooterDown />     

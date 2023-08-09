@@ -68,15 +68,16 @@ export default function Footer(){
 
 
         <div className="form-container">
-        <form action="https://formsubmit.co/m.bunmi5@email.com" method="POST">
-                <label for="login">Name</label>
-                <input type="text" id="login"/>
-                <label class="Email" for="Email"> Email</label>
-                <input type="Email"/>
+        <form action="mail.php" method="post">
+                <label  className="login">Name</label>
+                <input type="text" name="name" placeholder="Your name"/>
+                <label class="Email" for="Email" > Email</label>
+                <input type="Email" name="emailaddress" placeholder="your Email address"/>
                 <label for="Message">Message</label>
-                <input type="text"/>
+                <input type="text" name="message" placeholder="your message"/>
+                <button type="submit" className="submit-button">Submit</button>           
+
             </form>      
-            <button className="submit-button">Submit</button>           
         </div>
 </div>             
 </div>
