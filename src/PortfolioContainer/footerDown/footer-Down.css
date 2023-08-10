@@ -14,3 +14,6 @@
 .up-image{
     width: 100%;
 }
+.nav-list:hover{
+    color: rgb(38, 156, 240);
+}

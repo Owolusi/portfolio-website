@@ -26,7 +26,7 @@ export default function FooterDown(){
         <a href="https://linktr.ee/mighty_scribe" target="_blank" className="nav-link">Publications</a>
     </li>    
     <li className="nav-list">
-        <a href="#Contact-nav" className="nav-link">ContactMe</a>
+        <a href="#Contact-nav" className="nav-link">Contact Me</a>
     </li>
 </ul>
         <div className="up">            

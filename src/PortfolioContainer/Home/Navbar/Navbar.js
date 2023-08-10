@@ -33,7 +33,7 @@ export default function Navbar() {
                     </li>
                     
                     <li className="nav-item">
-                        <a href="#Contact-nav" className="nav-link">ContactMe</a>
+                        <a href="#Contact-nav" className="nav-link">Contact Me</a>
                     </li>
                 </ul>
             </div>
